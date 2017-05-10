@@ -18,10 +18,6 @@ get '/about' do
 	erb :about
 end
 
-get '/cart' do
-
-end
-
 post '/cart' do
-	erb 'Hi!'
+	erb :cart
 end
